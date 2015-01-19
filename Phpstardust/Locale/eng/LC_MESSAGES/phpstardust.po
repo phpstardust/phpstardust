@@ -1,0 +1,329 @@
+msgid "Benvenuto"
+msgstr "Welcome"
+
+msgid "Non sei autorizzato ad accedere a questa pagina!"
+msgstr "You are not authorized to access that location!"
+
+msgid "Modulo"
+msgstr "Module"
+
+msgid "Ricordami"
+msgstr "Remember me"
+
+msgid "Password dimenticata?"
+msgstr "Forgot password?"
+
+msgid "Registrati"
+msgstr "Register"
+
+msgid "Username o password errata."
+msgstr "Your username or password was incorrect."
+
+msgid "Ciao"
+msgstr "Hi"
+
+msgid "questa è la nuova password:"
+msgstr "this is a new password:"
+
+msgid "Saluti"
+msgstr "Best regards"
+
+msgid "Nuova password"
+msgstr "New password"
+
+msgid "Password inviata."
+msgstr "Password sent."
+
+msgid "Email non trovata."
+msgstr "Email not found."
+
+msgid "Inviami una nuova password"
+msgstr "Send me a new password"
+
+msgid "Vai al Login"
+msgstr "Go to Login"
+
+msgid "Per attivare il tuo account"
+msgstr "For activate your account"
+
+msgid "clicca qui"
+msgstr "click here"
+
+msgid "Attivazione account"
+msgstr "Activation account"
+
+msgid "Registrazione completata. Ti abbiamo inviato una email con il link per attivare il tuo account."
+msgstr "Registration complete. We have sent you an email with a link to activate your account."
+
+msgid "Accetta Tos e Privacy policy."
+msgstr "Accept ToS and Privacy policy."
+
+msgid "Account attivato."
+msgstr "Account activated."
+
+msgid "Codice attivazione non trovato."
+msgstr "Activation code not found."
+
+msgid "Utenti"
+msgstr "Users"
+
+msgid "Aggiungi"
+msgstr "Add"
+
+msgid "Aggiungi Utente"
+msgstr "Add User"
+
+msgid "Cerca"
+msgstr "Search"
+
+msgid "Ruolo"
+msgstr "Role"
+
+msgid "Stato"
+msgstr "Status"
+
+msgid "Creato"
+msgstr "Created"
+
+msgid "Azioni"
+msgstr "Actions"
+
+msgid "Attivo"
+msgstr "Active"
+
+msgid "Inattivo"
+msgstr "Inactive"
+
+msgid "Modifica"
+msgstr "Edit"
+
+msgid "Elimina"
+msgstr "Delete"
+
+msgid "Sei sicuro?"
+msgstr "Are you sure?"
+
+msgid "Pagina"
+msgstr "Page"
+
+msgid "di"
+msgstr "of"
+
+msgid "Prima"
+msgstr "First"
+
+msgid "Precedente"
+msgstr "Prev"
+
+msgid "Prossima"
+msgstr "Next"
+
+msgid "Ultima"
+msgstr "Last"
+
+msgid "Seleziona"
+msgstr "Select"
+
+msgid "Salva"
+msgstr "Save"
+
+msgid "L'utente è stato salvato."
+msgstr "User has been saved."
+
+msgid "L'utente è stato modificato."
+msgstr "User has been modified."
+
+msgid "Elemento non trovato."
+msgstr "Element not found."
+
+msgid "L'utente è stato eliminato."
+msgstr "User has been deleted."
+
+msgid "Accesso negato!"
+msgstr "Access denied!"
+
+msgid "Username già in uso."
+msgstr "Username already exists."
+
+msgid "La username deve essere minimo 3 caratteri."
+msgstr "Username must be min 3 characters."
+
+msgid "Email già in uso."
+msgstr "Email already exists."
+
+msgid "Inserisci una email valida."
+msgstr "Insert a valid email."
+
+msgid "La password è obbligatoria e deve essere lunga tra 8 e 40 caratteri."
+msgstr "The password is required and must be between 8 and 40 characters."
+
+msgid "Seleziona il ruolo."
+msgstr "Select role."
+
+msgid "Seleziona lo stato."
+msgstr "Select status."
+
+msgid "Apri"
+msgstr "Open"
+
+msgid "Utente"
+msgstr "User"
+
+msgid "Visualizza"
+msgstr "View"
+
+msgid "Nome"
+msgstr "Name"
+
+msgid "Versione"
+msgstr "Version"
+
+msgid "Nome in codice"
+msgstr "Codename"
+
+msgid "Sito web"
+msgstr "Website"
+
+msgid "Licenza"
+msgstr "License"
+
+msgid "Articoli"
+msgstr "Articles"
+
+msgid "Categorie"
+msgstr "Categories"
+
+msgid "Pagine"
+msgstr "Pages"
+
+msgid "Impostazioni"
+msgstr "Settings"
+
+msgid "Importa"
+msgstr "Import"
+
+msgid "Aggiungi Pagina"
+msgstr "Add Page"
+
+msgid "Titolo"
+msgstr "Title"
+
+msgid "Pubblicato"
+msgstr "Published"
+
+msgid "Bozza"
+msgstr "Draft"
+
+msgid "Immagine"
+msgstr "Image"
+
+msgid "Descrizione"
+msgstr "Description"
+
+msgid "Testo"
+msgstr "Text"
+
+msgid "La pagina è stata salvata."
+msgstr "Page has been saved."
+
+msgid "Titolo già esistente."
+msgstr "Title already exists."
+
+msgid "Modifica Pagina"
+msgstr "Edit Page"
+
+msgid "Elimina immagine"
+msgstr "Delete image"
+
+msgid "La pagina è stata modificata."
+msgstr "Page has been modified."
+
+msgid "Seleziona un formato immagine valido (JPG, GIF o PNG)."
+msgstr "Please supply a valid image format (JPG, GIF or PNG)."
+
+msgid "La pagina è stata eliminata."
+msgstr "Page has been deleted."
+
+msgid "L'immagine è stata eliminata."
+msgstr "Image has been deleted."
+
+msgid "Visualizza immagine"
+msgstr "View image"
+
+msgid "Nessun articolo trovato."
+msgstr "No articles found."
+
+msgid "Aggiungi Articolo"
+msgstr "Add Article"
+
+msgid "L'articolo è stato salvato."
+msgstr "Article has been saved."
+
+msgid "L'articolo è stato modificato."
+msgstr "Article has been modified."
+
+msgid "Modifica Articolo"
+msgstr "Edit Article"
+
+msgid "L'articolo è stato eliminato."
+msgstr "Article has been deleted."
+
+msgid "Aggiungi Categoria"
+msgstr "Add Category"
+
+msgid "La categoria è stata salvata."
+msgstr "Category has been saved."
+
+msgid "La categoria è stata modificata."
+msgstr "Category has been modified."
+
+msgid "Modifica Categoria"
+msgstr "Edit Category"
+
+msgid "Nome già esistente."
+msgstr "Name already exists."
+
+msgid "La categoria è stata eliminata."
+msgstr "Category has been deleted."
+
+msgid "Le impostazioni sono state modificate."
+msgstr "Settings has been modified."
+
+msgid "Lingua"
+msgstr "Language"
+
+msgid "Inglese"
+msgstr "English"
+
+msgid "Italiano"
+msgstr "Italian"
+
+msgid "Il database è stato importato."
+msgstr "Database has been imported."
+
+msgid "Seleziona il file SQL."
+msgstr "Choose SQL file."
+
+msgid "Elenco"
+msgstr "List"
+
+msgid "Inserire"
+msgstr "Enter"
+
+msgid "Invia"
+msgstr "Send"
+
+msgid "Installa CMS"
+msgstr "Install CMS"
+
+msgid "Installazione completata. Usa la forza."
+msgstr "Installation completed. Use the force."
+
+msgid "Aggiungi Immagine"
+msgstr "Add Image"
+
+msgid "Upload completato."
+msgstr "Upload complete."
+
+msgid "Leggi l'articolo"
+msgstr "Read article"

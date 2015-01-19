@@ -1,0 +1,1 @@
+<div class="message" id="authMessage"><?php echo __d('phpstardust','You are not authorized to access that location!'); ?></div>

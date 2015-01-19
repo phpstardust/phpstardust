@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body, html {
+	background-color:#CCCCCC !important;
+	font-family: Helvetica, Arial, sans-serif !important;
+	font-size:14px !important;
+	color:#000 !important;
+}
+
+a {
+	outline:0 !important;
+}
+
+.form-group-link {
+	color:#000 !important;
+}
+
+.checkboxText {
+	padding-top:4px;
+}
+
+.multipleCheckbox {
+	border:none !important;
+}
+
+.multipleCheckbox input[type="checkbox"] {
+	margin-right:10px !important;
+}
+
+.navbar {
+	border-radius:0px !important;
+}
+
+.breadcrumb, .breadcrumb li, .breadcrumb > li + li:before {
+	background-color:#CCCCCC !important;
+	color:#000000 !important;
+}
+
+.breadcrumb a {
+	color:#000000 !important;
+}
+
+.pagination span {
+	color:#000000 !important;
+}
+
+.links a {
+	color:#000000 !important;
+}
+
+.mainmenu .panel-default {
+    border-color: #CCCCCC !important;
+}
+
+.mainmenu .panel-default > .panel-heading {
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+.mainmenu .panel-default > .panel-heading a {
+	text-decoration:none;
+	outline:0 !important;
+}
+
+.mainmenu .panel-heading {
+    border-bottom: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+	margin-top:-5px !important;
+}
+
+.mainmenu .panel-body ul li {
+	margin-bottom:10px;
+}
+
+.mainmenu .panel-body ul li i {
+	margin-right:5px;
+}
+
+.mainmenu .panel-body ul li a {
+	color:#000000 !important;
+}
+
+.content .panel-default > .panel-heading {
+    background-color: #e1e1e1 !important;
+}
+
+.content .panel-default > .panel-footer {
+    background-color: #e1e1e1 !important;
+}
+
+.content .searchbox {
+	width:100% !important;
+}
+
+.content .pagination a {
+	color:#000000 !important;
+}
+
+.searchform {
+	margin-left:-15px !important;
+}
+
+.numberOfPages {
+	font-weight:bold;
+	margin-top:10px;	
+}
+
+.mobiletable .list-group-item {
+	background-color:#E1E1E1 !important;
+	border:1px solid #999999 !important;
+}
+
+.boxform {
+	margin-top:20px;
+}
+
+.btn-psd { 
+  color: #ffffff; 
+  background-color: #000000; 
+  border-color: #000000; 
+} 
+ 
+.btn-psd:hover, 
+.btn-psd:focus, 
+.btn-psd:active, 
+.btn-psd.active, 
+.open .dropdown-toggle.btn-psd { 
+  color: #ffffff; 
+  background-color: #3D3939; 
+  border-color: #000000; 
+} 
+ 
+.btn-psd:active, 
+.btn-psd.active, 
+.open .dropdown-toggle.btn-psd { 
+  background-image: none; 
+} 
+ 
+.btn-psd.disabled, 
+.btn-psd[disabled], 
+fieldset[disabled] .btn-psd, 
+.btn-psd.disabled:hover, 
+.btn-psd[disabled]:hover, 
+fieldset[disabled] .btn-psd:hover, 
+.btn-psd.disabled:focus, 
+.btn-psd[disabled]:focus, 
+fieldset[disabled] .btn-psd:focus, 
+.btn-psd.disabled:active, 
+.btn-psd[disabled]:active, 
+fieldset[disabled] .btn-psd:active, 
+.btn-psd.disabled.active, 
+.btn-psd[disabled].active, 
+fieldset[disabled] .btn-psd.active { 
+  background-color: #000000; 
+  border-color: #000000; 
+} 
+ 
+.btn-psd .badge { 
+  color: #000000; 
+  background-color: #ffffff; 
+}
