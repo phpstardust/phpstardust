@@ -11,6 +11,22 @@ CakePHP 2.5.1+
 
 http://www.phpstardust.org
 
+<h2>Installation</h2>
+
+- compiles the database file in app/Config/database.php (the name must be "default")
+- compiles the email file in app/Config/email.php (the name must be "default")
+- upload the "Phpstardust" folder in the /app/Plugin folder
+- upload the "Themed" folder in the /app/View folder
+- upload the "theme" folder in the /app/webroot folder
+- activate the plugin in /app/Config/bootstrap.php
+
+CakePlugin::loadAll(array(
+    'Phpstardust' => array('bootstrap' => true, 'routes' => true)
+));
+
+- edit the configuration variables in /app/Plugin/Phpstardust/Config/bootstrap.php
+- install CMS via browser http://your_website/install
+
 <h2>License</h2>
 
 MIT LICENSE
