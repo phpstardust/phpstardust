@@ -1,5 +1,5 @@
 # phpstardust
-CMS based on CakePHP.
+CMS based on CakePHP. A CakePHP plugin.
 
 <h2>Requirements</h2>
 
