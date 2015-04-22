@@ -152,7 +152,7 @@ class PsdComponent extends Component {
 		
 		if (is_file($file) && file_exists(Configure::read('Psd.uploads') .$file)) {
 			
-			echo Configure::read('Psd.uploads') .$file;exit;
+			echo Configure::read('Psd.uploads') .$file;
 			
 			unlink(Configure::read('Psd.uploads') .$file);
 			return(true);
