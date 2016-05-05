@@ -12,6 +12,7 @@ class Setting extends AppModel {
 			}
 		} else {
 			$data = strip_tags($data, Configure::read('Psd.allowedHtmlTags'));
+			$data = trim($data);
 		}
 		
 		return $data;
