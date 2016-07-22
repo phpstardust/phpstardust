@@ -106,8 +106,16 @@ class User extends AppModel {
 			$this->data = $this->cleanVars($this->data);
 		}
 
-		$this->id = $this->data[$this->alias]['id'];
-		$oldPassword = $this->field('password');
+		$oldPassword = '';
+
+		if (isset($this->data[$this->alias]['id'])) {
+			$this->id = $this->data[$this->alias]['id'];
+			$oldPassword = $this->field('password');
+		}
+		
+		if (isset($this->data[$this->alias]['username'])) {
+			$this->data[$this->alias]['username'] = str_replace(' ','',$this->data[$this->alias]['username']);
+		}
 		
 		if (!empty($this->data[$this->alias]['password'])) {
 			
