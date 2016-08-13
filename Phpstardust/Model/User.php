@@ -115,6 +115,7 @@ class User extends AppModel {
 		
 		if (isset($this->data[$this->alias]['username'])) {
 			$this->data[$this->alias]['username'] = str_replace(' ','',$this->data[$this->alias]['username']);
+			$this->data[$this->alias]['username'] = strtolower($this->data[$this->alias]['username']);
 		}
 		
 		if (!empty($this->data[$this->alias]['password'])) {
