@@ -477,8 +477,11 @@ class PagesController extends AppController {
 		
 		$this->Page->id = $id;
 		$image = $this->Page->field('image');
-		$this->Page->saveField('image','');
-		$this->Page->save();
+		
+		$this->Page->updateAll(
+			array('Page.image' => NULL),
+			array('Page.id' => $id)
+		);
 		
 		if ($this->Psd->fileExists($image)) $this->Psd->deleteFile($image);
 		
