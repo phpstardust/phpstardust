@@ -226,8 +226,11 @@ class ArticlesController extends AppController {
 		
 		$this->Article->id = $id;
 		$image = $this->Article->field('image');
-		$this->Article->saveField('image','');
-		$this->Article->save();
+		
+		$this->Article->updateAll(
+			array('Article.image' => NULL),
+			array('Article.id' => $id)
+		);
 		
 		if ($this->Psd->fileExists($image)) $this->Psd->deleteFile($image);
 		
