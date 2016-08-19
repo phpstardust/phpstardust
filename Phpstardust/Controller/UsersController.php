@@ -81,7 +81,7 @@ class UsersController extends AppController {
 			}
 			
 			$this->Session->setFlash(
-				__d('phpstardust', 'Your username or password was incorrect.'), 'flash_warning'
+				__d('phpstardust', 'Your username or password are incorrect.'), 'flash_warning'
 			);
 				
 		}
