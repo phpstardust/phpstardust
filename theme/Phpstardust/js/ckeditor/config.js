@@ -38,4 +38,6 @@ CKEDITOR.editorConfig = function( config ) {
 	
 	config.extraPlugins = 'justify';
 	
+	config.allowedContent = true;
+	
 };
