@@ -67,17 +67,28 @@ class PsdComponent extends Component {
 	
 	
 	
-	public function checkUserPermission($controller=NULL, $action=NULL) {
+	public function checkUserPermission($controller = NULL, $action = NULL, $plugin = NULL) {
 		
 		$return = true;
 		
 		if (array_key_exists($this->Session->read('Auth.User.role'), Configure::read('permissions'))) {
 			if (array_key_exists($controller, Configure::read('permissions.' .$this->Session->read('Auth.User.role')))) {
 				
-				if (in_array($action, Configure::read('permissions.' .$this->Session->read('Auth.User.role') .'.' .$controller))) {
-					$return = true;
+				if ($plugin===NULL) {
+					
+					if (in_array($action, Configure::read('permissions.' .$this->Session->read('Auth.User.role') .'.' .$controller))) {
+						$return = true;
+					}
+					else $return = false;
+				
+				} else {
+					
+					if (in_array($action, Configure::read('permissions.' .$this->Session->read('Auth.User.role') .'.' .$plugin .'.' .$controller))) {
+						$return = true;
+					}
+					else $return = false;
+					
 				}
-				else $return = false;
 				
 			}
 			
