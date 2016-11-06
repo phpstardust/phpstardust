@@ -107,6 +107,8 @@ class UsersController extends AppController {
 	
 	public function index() {
 		
+		if (isset($this->request->query['q']) && $this->request->query['q']!="") $this->request->data["User"]["q"] = addslashes(trim(strip_tags($this->request->query['q'])));
+		
 		$data = NULL;
 		
 		if (!isset($this->request->data["User"]["q"])) {
