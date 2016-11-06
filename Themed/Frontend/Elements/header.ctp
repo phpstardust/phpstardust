@@ -20,7 +20,7 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo __d('phpstardust', 'Search'); ?></a>
           <ul class="dropdown-menu" style="padding:12px;">
-            <?php echo $this->Form->create('Page', array('action' => 'home', 'class' => 'form-inline')); ?>
+            <?php echo $this->Form->create('Page', array('action' => 'home', 'class' => 'form-inline', 'type' => 'get')); ?>
               <li class="text-center" style="margin-bottom:20px;">
               <?php
               echo $this->Form->input('q',array(
