@@ -39,6 +39,8 @@ class ArticlesController extends AppController {
 	
 	public function index() {
 		
+		if (isset($_GET["q"]) && $_GET["q"]!="") $this->request->data["Article"]["q"] = addslashes(trim(strip_tags($_GET["q"])));
+		
 		$data = NULL;
 		
 		if (!isset($this->request->data["Article"]["q"])) {
