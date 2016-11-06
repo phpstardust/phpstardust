@@ -62,6 +62,8 @@ class PagesController extends AppController {
 	
 	public function home() {
 		
+		if (isset($this->request->query['q']) && $this->request->query['q']!="") $this->request->data["Page"]["q"] = addslashes(trim(strip_tags($this->request->query['q'])));
+		
 		$this->theme = Configure::read('Psd.themeFrontend');
 		
 		$data = NULL;
@@ -320,6 +322,8 @@ class PagesController extends AppController {
 	
 	
 	public function index() {
+		
+		if (isset($this->request->query['q']) && $this->request->query['q']!="") $this->request->data["Page"]["q"] = addslashes(trim(strip_tags($this->request->query['q'])));
 		
 		$data = NULL;
 		
