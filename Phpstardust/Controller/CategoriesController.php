@@ -39,6 +39,8 @@ class CategoriesController extends AppController {
 	
 	public function index() {
 		
+		if (isset($this->request->query['q']) && $this->request->query['q']!="") $this->request->data["Categorie"]["q"] = addslashes(trim(strip_tags($this->request->query['q'])));
+		
 		$data = NULL;
 		
 		if (!isset($this->request->data["Categorie"]["q"])) {
