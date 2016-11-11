@@ -8,7 +8,7 @@
 		
 			<div class="col-lg-12">
 			
-			<?php echo $this->Form->create('Installer', array('action' => 'install')); ?>
+			<?php echo $this->Form->create('Installer', array('url' => 'install')); ?>
 			
 			  <div class="form-group">
                 <?php
