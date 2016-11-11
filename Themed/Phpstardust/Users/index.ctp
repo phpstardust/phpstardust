@@ -17,7 +17,7 @@
 		  </div>
 		  
 		  <div class="col-lg-6">
-			  <?php echo $this->Form->create('User', array('action' => 'index', 'class' => 'navbar-form searchform', 'role' => 'search', 'type' => 'get')); ?>
+			  <?php echo $this->Form->create('User', array('url' => 'index', 'class' => 'navbar-form searchform', 'role' => 'search', 'type' => 'get')); ?>
 			  <div class="input-group searchbox">
                   <?php
                   echo $this->Form->input('q',array(
