@@ -8,7 +8,7 @@
 		
 			<div class="col-lg-12">
 			
-			<?php echo $this->Form->create('User', array('action' => 'forgot')); ?>
+			<?php echo $this->Form->create('User', array('url' => 'forgot')); ?>
 			
 			  <div class="form-group">
                 <?php
