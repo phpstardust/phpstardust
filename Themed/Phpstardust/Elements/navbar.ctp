@@ -7,8 +7,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><?php echo $this->Html->link(Configure::read('Psd.name'), Configure::read('Psd.url') .'/dashboard', array('class'=>'navbar-brand')); ?></a>
-      <a href="#"><?php echo $this->Html->link(__d('phpstardust', 'View') .' ' .__d('phpstardust', 'Website'), Configure::read('Psd.url'), array('class'=>'navbar-brand', 'target' => '_blank')); ?></a>
+      <a class="navbar-brand" href="<?php echo Configure::read('Psd.url') .'/dashboard'; ?>"><?php echo Configure::read('Psd.name'); ?></a>
+      <a class="navbar-brand" href="<?php echo Configure::read('Psd.url'); ?>"><?php echo __d('phpstardust', 'View') .' ' .__d('phpstardust', 'Website'); ?></a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
