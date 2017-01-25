@@ -156,6 +156,8 @@ class PsdHelper extends AppHelper {
 				{ name: 'colors', items : [ 'TextColor','BGColor' ] }
 				]
 			});
+			
+			CKEDITOR.config.allowedContent = true;
 		
 		});";
 		$html .= '}';
