@@ -1,5 +1,7 @@
-# phpstardust
+# phpstardust1
 CMS based on CakePHP. A CakePHP plugin.
+
+This is an old version. See https://github.com/phpstardust/phpstardust2
 
 <h2>Requirements</h2>
 
